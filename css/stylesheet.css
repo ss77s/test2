@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    scroll-behavior: smooth;
+}
+/*start header*/
+.header{
+    width: 100%;
+    height: 750px;
+}
+/*end nav*/
+/*start nav*/
+/*s nav bar كلو */
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+    background-color: #e5e5e5;
+
+}
+/*e nav bar كلو */
+
+.nav{
+    height: 100%;
+    width: 50%;
+   font-family: 'Acme', sans-serif;
+   font-size: 25px;
+}
+/* s list*/
+.nav ul li {
+    float: left;
+    list-style-type: none;
+    margin: 35px 70px;
+    text-decoration: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+
+}
+.nav ul li a:hover{
+    color: cadetblue;
+}
+/*e list */
+
+/* start logo*/
+.logo{
+    height:100%;
+    width: 50%;
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 10px 70px 20px;
+    font-family: 'Pacifico', cursive;
+}
+/*end logo*/
+/*end nav*/
+/*end header*/
+/*start about*/
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+/*start avatar*/
+.avatar{
+    width: 50%;
+    height: 100%;
+}
+.avatar img{
+    width: 50%;
+    height: 50%;
+    margin: 100px 60px;
+    border-radius: 50%;
+    box-shadow: darkgray 5px 10px 10px;
+}
+
+/*end avatar*/
+/*start text*/
+.aboutme{
+    width: 50%;
+    height: 100%;
+}
+.aboutme h1{
+    margin: 150px 0px 0px;
+    font-size: 50px;
+}
+.aboutme h2{
+    margin: 15px 0px 10px 0px;
+    font-size: 1.5em;
+}
+.icons{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(135, 113, 170);
+    transition: 0.5s ease;
+    margin-right: 25px;
+    
+}
+.icons:hover{
+    color: blue;
+}
+
+/*end text*/
+/*end about-me */
+/*start projects*/
+.projects{
+    width: 100%;
+    height: 500px;
+    background-color: #e5e5e5;
+}
+.project-text{
+    text-align: center;
+    height: 20%;
+}
+.project-text h1{
+   margin: 5px;
+   font-size: 70px;
+
+}
+.project-text h1::first-letter{
+    color: cadetblue;
+}
+/*start content*/
+.content{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+    overflow: hidden;
+}
+.item{
+    width: 20%;
+    height: 50%;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+.item h2{
+    position: absolute;
+    top: -40% ;
+    left: 30% ;
+    font-size: 50px;
+    color: rgb(0, 0, 0) ;
+    transition: 0.5s ease;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    border: 1px rgb(0, 0, 0) solid;
+
+}
+.item:hover{
+    transform: scale(1.2,1.2);
+}
+.item:hover h2{
+    top: 40%;
+}
+/*end projects*/
+/*s contact*/
+.contact{
+    width: 100%;
+    /*height: 460px;*/
+    margin-bottom: 10px;
+}
+.contact-text{
+    text-align: center;
+    height: 20%;
+}
+
+.contact h1 {
+    margin-top: 50px;
+    font-size: 60px;
+}
+.contact h1::first-letter{
+    color: cadetblue;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 1px;
+
+}
+.form{
+    width: 700px;
+    height: 100%;
+    margin: auto;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 1px;
+    margin: 10px 0px ;
+}
+button{
+    border: none;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+    margin-bottom: 20px
+}
+button:hover{
+    background-color: rgb(23, 65, 143);
+}
+map{
+    width: 100%;
+    height: 480px;
+}
+footer{
+    background-color: #e5e5e5 ;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+/*e contact*/
